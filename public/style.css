@@ -1,0 +1,13 @@
+#root {
+    background-color: #666;
+    height: 100vh;
+    font-family: Ubuntu, sans-serif;
+}
+
+table {
+    box-shadow: 0 0 2rem rgba(0,0,0,0.8);
+}
+
+.theader {
+    border-radius: 6px 6px 0 0;
+}
