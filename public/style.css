@@ -4,10 +4,58 @@
     font-family: Ubuntu, sans-serif;
 }
 
-table {
-    box-shadow: 0 0 2rem rgba(0,0,0,0.8);
+.myShadow {
+    box-shadow: 10px 10px 1.5rem rgba(0,0,0,0.3);
 }
 
-.theader {
-    border-radius: 6px 6px 0 0;
+.flex {
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(3px);
+}
+
+.width30rem {
+    width: 30rem;
+}
+
+.myGlow:hover{
+    box-shadow: 0 0 0.5rem #52c0ff, inset 0 0 0.5rem white;
+    transition: all 200ms ease;
+}
+
+.tShadow {
+    text-shadow: 1px 1px 0.1rem rgba(0,0,0,0.3);
+}
+
+.transparent {
+    opacity: 0.7;
+}
+
+.bgThingC {
+    position: absolute;
+    left: 51%;
+    top: 56%;
+    transform: rotate(25deg);
+    color: cyan;
+}
+.bgThingM {
+    position: absolute;
+    left: 51%;
+    top: 56%;
+    transform: rotate(30deg);
+    color: magenta;
+}
+.bgThingY {
+    position: absolute;
+    left: 51%;
+    top: 56%;
+    transform: rotate(35deg);
+    color: yellow;
+}
+.bgThingK {
+    position: absolute;
+    left: 51%;
+    top: 56%;
+    transform: rotate(40deg);
+    color: black;
 }
